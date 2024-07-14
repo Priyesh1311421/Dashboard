@@ -14,7 +14,7 @@ function App() {
                 <div >
                   <ShowcardContainer />
                 </div>
-                <div className='md:grid md:grid-cols-2'>
+                <div className='md:grid md:grid-cols-4'>
                   <div className='col-span-3'>
                     <OrderCard />
                   </div>
