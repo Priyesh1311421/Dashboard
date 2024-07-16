@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex justify-around p-4 items-center'>
+    <div className=' flex justify-around p-4 items-center'>
         <div>
             <div className="relative flex items-center text-gray-400 focus-within:text-gray-600">
                 <span className="absolute left-3">
