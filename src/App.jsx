@@ -1,4 +1,3 @@
-import React from 'react';
 import ShowcardContainer from './components/ShowcardContainer';
 import OrderCard from './components/OrderCard';
 import { ComplexNavbar } from './components/Navbar';
@@ -15,10 +14,10 @@ function App() {
                   <ShowcardContainer />
                 </div>
                 <div className='md:grid md:grid-cols-4'>
-                  <div className='col-span-3'>
+                  <div className='md:col-span-3'>
                     <OrderCard />
                   </div>
-                  <div className='col-span-1'>
+                  <div className='md:col-span-1'>
                     <CustomersCard/>
                   </div>
                 </div>
